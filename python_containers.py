@@ -53,3 +53,9 @@ for student in students:
 
 for student in awesome_students:
    print(student)
+
+
+### Exercise 8
+for food in foods:
+   if "a" in food:
+      print(food)
