@@ -32,3 +32,14 @@ for key, value in home_town.items():
    print(f'{key} = {value}')
 
 
+### Exercise 6
+cohort = []
+
+for student in students:
+   cohort.append({
+      "student": student,
+      "fav_food": "pizza"
+   })
+
+for student in cohort:
+   print(student)
