@@ -12,3 +12,8 @@ for food in foods:
    print(food + " is a good food")
 
 
+### Exercise 3
+for food in foods[-2:]:
+   print(food)
+
+
