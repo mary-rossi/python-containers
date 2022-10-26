@@ -17,3 +17,13 @@ for food in foods[-2:]:
    print(food)
 
 
+### Exercise 4
+home_town = {
+   "city": "The Colony",
+   "state": "Texas",
+   "population": 48000
+}
+
+print(f'I was born in {home_town["city"]}, {home_town["state"]} - population of {home_town["population"]}')
+
+
