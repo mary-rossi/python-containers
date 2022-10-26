@@ -43,3 +43,13 @@ for student in students:
 
 for student in cohort:
    print(student)
+
+
+### Exercise 7
+awesome_students = []
+
+for student in students:
+   awesome_students.append(student + " is awesome!")
+
+for student in awesome_students:
+   print(student)
